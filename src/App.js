@@ -121,14 +121,19 @@ function App() {
 
         {/* Spline section */}
         <section id="home">
-          <div className="relative w-screen h-screen" id="spline">
+          <div
+            className="relative w-screen h-screen hidden sm:block"
+            id="spline"
+          >
             <Spline scene="https://draft.spline.design/w2qxC5LVnfRhu9ad/scene.splinecode" />
-
             <div className="absolute bottom-10 w-full justify-center items-center flex ">
               <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl">
                 <p className="text-textBase ">Click to interact</p>
               </div>
             </div>
+          </div>
+          <div className="relative w-screen h-screen sm:hidden" id="spline">
+            <Spline scene="https://prod.spline.design/BAM4-3qugMZFaT2a/scene.splinecode" />
           </div>
         </section>
         {/* Main sections */}
@@ -140,8 +145,8 @@ function App() {
             id="about"
           >
             {/* Image box */}
-            <div className="w-full h-420 flex items-center justify-center ">
-              <div className="w-275 h-340 bg-red-400 rounded-xl relative hover:bottom-1 hover:bg-red-300">
+            <div className="w-full h-420  flex items-center justify-center ">
+              <div className="w-275 h-340 bg-red-400 rounded-xl relative bottom-10 hover:bottom-9 hover:bg-red-300">
                 <img
                   className="w-full h-full absolute -right-2 top-2 object-cover rounded-xl shadow-md"
                   src={rushipic}
@@ -176,7 +181,7 @@ function App() {
                 class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-visible text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
               >
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  <a href={resume} download="RushiPatel_Resume">
+                  <a href={resume} target="_blank" rel="noreferrer">
                     Download
                   </a>
                 </span>
