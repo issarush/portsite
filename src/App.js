@@ -32,12 +32,12 @@ function App() {
                 About
               </a>
 
-              <a
+              {/*<a
                 href="#projects"
                 className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
               >
                 Projects
-              </a>
+               </a>*/}
 
               <a
                 href="#contact"
@@ -48,7 +48,8 @@ function App() {
 
               <a
                 href={resume}
-                download="RushiPatel_Resume"
+                target="_blank"
+                rel="noreferrer"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
               >
                 Download
@@ -87,13 +88,13 @@ function App() {
                   About
                 </a>
 
-                <a
+                {/*<a
                   href="#projects"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
                   onClick={() => setIsActive(false)}
                 >
                   Projects
-                </a>
+                </a>*/}
 
                 <a
                   href="#contact"
@@ -106,7 +107,8 @@ function App() {
                 <motion.a
                   whileTap={{ scale: 0.8 }}
                   href={resume}
-                  download="RushiPatel_Resume"
+                  target="_blank"
+                  rel="noreferrer"
                   className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
                   onClick={() => setIsActive(false)}
                 >
@@ -150,27 +152,28 @@ function App() {
             {/* Content box */}
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-2xl text-textBase text-center ">
-                Hi, I'm currently a Senior at{" "}
-                <span className="text-cyan-600">CUNY Queens College</span>{" "}
-                majoring in{" "}
+                Hi, I'm currently a Senior at
+                <span className="text-cyan-600"> CUNY Queens College</span>{" "}
+                majoring in
                 <span className="text-cyan-600"> Computer Science</span>. I have
-                great interest in{" "}
-                <span className="text-cyan-600">Front-End Development</span>,
-                <span className="text-cyan-600"> Back-End Development</span> and{" "}
-                <span className="text-cyan-600">Data Science</span>. I've built
-                algorithms in many languages such as
-                <span className="text-cyan-600">
+                great interest in
+                <span className="text-[#ADD3D0]"> Frontend</span>,
+                <span className="text-[#ADD3D0]"> Backend</span> and
+                <span className="text-[#ADD3D0]"> Mobile Development</span>.
+                I've built algorithms in many languages such as
+                <span className="text-[#ADD3D0]"> Python</span>,
+                <span className="text-[#ADD3D0]"> Javascript</span>,
+                <span className="text-[#ADD3D0]"> Java</span> and
+                <span className="text-[#ADD3D0]"> C++</span>. And I've also
+                worked with techonologies such as
+                <span className="text-[#ADD3D0]">
                   {" "}
-                  Python, Javascript, HTML/CSS Java, and C++.
-                </span>{" "}
-                And I've also worked with techonologies such as{" "}
-                <span className="text-cyan-600">
                   Git, Apache Cassandra, and Oracle SQL
                 </span>
               </p>
               <motion.button
                 whileTap={{ scale: 0.8 }}
-                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
+                class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-visible text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80"
               >
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <a href={resume} download="RushiPatel_Resume">
