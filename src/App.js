@@ -52,7 +52,7 @@ function App() {
                 rel="noreferrer"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
               >
-                Download
+                Resume
               </a>
             </div>
 
@@ -112,7 +112,7 @@ function App() {
                   className=" text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
                   onClick={() => setIsActive(false)}
                 >
-                  Download
+                  Resume
                 </motion.a>
               </motion.div>
             )}
@@ -182,7 +182,7 @@ function App() {
               >
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <a href={resume} target="_blank" rel="noreferrer">
-                    Download
+                    Resume
                   </a>
                 </span>
               </motion.button>
