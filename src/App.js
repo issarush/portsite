@@ -171,7 +171,7 @@ function App() {
                 <span className="text-[#ADD3D0]"> Java</span> and
                 <span className="text-[#ADD3D0]"> C++</span>. And I've worked
                 with founders to build MVPs for their
-                <span className="text-[#ADD3D0]"> startups</span>. and gained a
+                <span className="text-[#ADD3D0]"> startups</span> and gained a
                 lot of experience in the process.
               </p>
               <motion.button
