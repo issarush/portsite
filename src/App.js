@@ -157,24 +157,22 @@ function App() {
             {/* Content box */}
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-2xl text-textBase text-center ">
-                Hi, I'm currently a Senior at
+                Hi, I'm software engineer and student at
                 <span className="text-cyan-600"> CUNY Queens College</span>{" "}
-                majoring in
+                studying
                 <span className="text-cyan-600"> Computer Science</span>. I have
                 great interest in
-                <span className="text-[#ADD3D0]"> Frontend</span>,
-                <span className="text-[#ADD3D0]"> Backend</span> and
-                <span className="text-[#ADD3D0]"> Mobile Development</span>.
-                I've built algorithms in many languages such as
+                <span className="text-[#ADD3D0]"> full-stack development</span>,
+                <span className="text-[#ADD3D0]"> cloud-computing</span> and
+                <span className="text-[#ADD3D0]"> artificial intelligence</span>
+                . I've built applications in many languages such as
                 <span className="text-[#ADD3D0]"> Python</span>,
                 <span className="text-[#ADD3D0]"> Javascript</span>,
                 <span className="text-[#ADD3D0]"> Java</span> and
-                <span className="text-[#ADD3D0]"> C++</span>. And I've also
-                worked with techonologies such as
-                <span className="text-[#ADD3D0]">
-                  {" "}
-                  Git, Apache Cassandra, and Oracle SQL
-                </span>
+                <span className="text-[#ADD3D0]"> C++</span>. And I've worked
+                with founders to build MVPs for their
+                <span className="text-[#ADD3D0]"> startups</span>. and gained a
+                lot of experience in the process.
               </p>
               <motion.button
                 whileTap={{ scale: 0.8 }}
