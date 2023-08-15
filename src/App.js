@@ -157,7 +157,7 @@ function App() {
             {/* Content box */}
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-2xl text-textBase text-center ">
-                Hi, I'm software engineer and stuent at
+                Hi, I'm software engineer and student at
                 <span className="text-cyan-600"> CUNY Queens College</span>{" "}
                 studying
                 <span className="text-cyan-600"> Computer Science</span>. I have
