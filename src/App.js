@@ -172,7 +172,7 @@ function App() {
                 <span className="text-[#ADD3D0]"> C++</span>. And I've worked
                 with founders to build MVPs for their
                 <span className="text-[#ADD3D0]"> startups</span> and gained a
-                lot of experience in the process.
+                deep understanding of software development.
               </p>
               <motion.button
                 whileTap={{ scale: 0.8 }}
