@@ -157,20 +157,20 @@ function App() {
             {/* Content box */}
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-2xl text-textBase text-center ">
-                Hi, I'm a software engineer and student at
-                <span className="text-cyan-600"> CUNY Queens College</span>{" "}
+              <span className="text-cyan-400"> Hi</span>, My name is <span className="text-cyan-400"> Rushi. </span> I'm a software engineer and student at
+                <span className="text-cyan-600"> CUNY Queens College </span>
                 studying
                 <span className="text-cyan-600"> Computer Science</span>. I have
                 great interest in
-                <span className="text-[#ADD3D0]"> full-stack development</span>,
-                <span className="text-[#ADD3D0]"> cloud-computing</span> and
-                <span className="text-[#ADD3D0]"> artificial intelligence</span>
+                <span className="text-[#ADD3D0]"> Full-stack development</span>,
+                <span className="text-[#ADD3D0]"> Site reliability engineering</span> and
+                <span className="text-[#ADD3D0]"> Cloud-computing</span>
                 . I've built applications in many languages such as
                 <span className="text-[#ADD3D0]"> Python</span>,
                 <span className="text-[#ADD3D0]"> Javascript</span>,
                 <span className="text-[#ADD3D0]"> Java</span> and
                 <span className="text-[#ADD3D0]"> C++</span>. And I've worked
-                with founders to build MVPs for their
+                with founders to build MVPs for
                 <span className="text-[#ADD3D0]"> startups</span> and gained a
                 deep understanding of software development.
               </p>
