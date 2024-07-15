@@ -3,7 +3,7 @@ import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { AnimatePresence, motion } from "framer-motion";
 
-import resume from "./RushiPatel_Resume.pdf";
+import resume from "./Rushi_Patel_Resume.pdf";
 import rushipic from "./images/rushipic3.jpg";
 import { SocialLinks } from "./data";
 
