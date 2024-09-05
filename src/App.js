@@ -168,7 +168,7 @@ function App() {
                   innovative, technical solutions
                 </span>{" "}
                 with my experience in{" "}
-                <span className="text-[#ADD3D0]">Sofware development</span>.
+                <span className="text-[#ADD3D0]">Software development</span>.
               </p>
               <motion.button
                 whileTap={{ scale: 0.8 }}
